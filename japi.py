@@ -43,6 +43,7 @@ def getStockData():
             f.write(alpha_dict)
             
             print(alpha_dict)
+	    print('Stock Quotes retrieved successfullly')
             
 
 getStockData()
