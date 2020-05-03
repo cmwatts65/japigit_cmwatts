@@ -30,7 +30,7 @@ def getStockData():
         else: 
             print('calling alphaadvantage 2')
 #alphaavantage2 = 'https://www.alphavantage.co/query?function=BATCH_STOCK_QUOTES&symbol=AAPL&apikey=O3AKXQQLD1HWUI5B'
-            alphaavantage2 = 'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=O3AKXQQLD1HWUI5B'
+            alphaavantage2 = 'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol&apikey=O3AKXQQLD1HWUI5B'
             connection3 = urllib.request.urlopen(alphaavantage2)
             responseString3 = connection3.read().decode()
             print(responseString3)
